@@ -1,0 +1,58 @@
+.form {
+    clear:both;
+     text-align:right;
+     position: absolute;
+     right: 0;
+   
+     border-bottom:1px solid #e0e5e9;
+     padding: 15px 15px 10px;
+}
+.btnn{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius:50px;
+    background:var(--twitter-color);
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    border:none;
+    font-size:15px;
+    cursor: pointer;
+}
+.Pass{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 25px;
+    color:var(--twitter-color);
+}
+.Logger{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 25px;
+    color:var(--twitter-color);
+}
+.waper{
+    width: 250px;	height: 200px; /* Размеры */
+    background: #fff; /* Цвет фона */
+    outline: 2px solid var(--twitter-color); /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+.inlog{
+    color:var(--twitter-color);
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 250px;
+    border: none;
+   
+}
+.inpass{
+    color:var(--twitter-color);
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 250px;
+    border: none;
+   
+}
