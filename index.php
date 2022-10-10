@@ -17,7 +17,7 @@
 	 
      if(isset($_POST['post_text']) && (!isset($_GET['edit'])) ) //ноий tweet
      {
-        $sql = "INSERT INTO posts (posts_text, posts_date, user_login) VALUES('$Posts_Text',now(), '$user_login')";
+        $sql = "INSERT INTO posts (posts_text, posts_date, user_login, likes) VALUES('$Posts_Text',now(), '$user_login', 0)";
         $result = mysqli_query($con,$sql);
 		 if($sql){
             header("location:index.php");
@@ -45,16 +45,12 @@
     }
    
     ?>
-    
-
 
     <div class="grid-container">
 
-   
-
     <?php require_once "left-sidebar.php";?>
     <div class="main">
-    <p class = "page_title"><?php if (isset($_GET['edit'])) echo 'Editing mode'; else echo 'Trynditter'; ?></p>
+    <p class = "page_title" ><?php if (isset($_GET['edit'])) echo 'Editing mode'; else echo 'Trynditter'; ?></p>
         <div class="tweet__box tweet__add" <?php if (!isset($_SESSION["user_login"])) echo 'hidden';?> >
 
             <div class="tweet_left">

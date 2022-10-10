@@ -33,7 +33,10 @@ if(isset($_POST['login']) && isset($_POST['password'])){
 </form>
 </div>
 
-<div>
+<div class="exiit" 
+   position = "relative"
+    top = "-50px"
+    >
 <?php if (isset($_SESSION["user_login"]))
    {	
 	 echo 'Ви увійшли як '.$_SESSION['user_login'];

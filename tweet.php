@@ -25,7 +25,7 @@ while($row = mysqli_fetch_assoc($data))
    
         <p class="tweet__text"><?php echo $posts_text; ?></p>
         <div class="tweet__icons">
-            <a href=""><i class="far fa-comment"></i></a>
+        <a href=""><i class="far fa-comment"></i></a>
             <a href=""><i class="fa fa-reply"></i></a>
             <a href=""><i class="far fa-heart"></i></a>
             <a href=""><i class="fa fa-upload"></i></a>

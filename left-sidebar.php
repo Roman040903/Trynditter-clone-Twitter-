@@ -2,7 +2,10 @@
 
 
 <div class="sidebar">
-   
+<img src="images\Trynditter.jpg" alt=""
+     width="220"
+     height="170"
+     margin-left = "20px">
     <ul style="list-style:none">
         
         <li class="active__menu"><i class="fa fa-home"></i><span>Home</span></li>
