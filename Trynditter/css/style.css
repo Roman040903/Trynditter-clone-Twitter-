@@ -8,6 +8,7 @@
 
 }
 body{
+    
     min-width: 100vh;
     font-family: 'Roboto',sans-serif;
 }
@@ -19,6 +20,7 @@ body{
     text-decoration: none;
 }
 
+
 textarea{
     resize: none;
     outline: none;
@@ -28,6 +30,7 @@ textarea{
     font-size: 18px;
     font-family: 'Roboto',sans-serif;
 }
+
 
 .trynditter{
     color:var(--twitter-color);
@@ -56,6 +59,8 @@ textarea{
 .right__sidebar{grid-area: right__sidebar;}
 
 .page_title{
+  
+    text-align: center;
     font-weight: 900;
     font-size: 20px;
     padding: 15px 20px;
@@ -63,11 +68,17 @@ textarea{
     background:#fff;
     position: sticky;
 top:0;
-z-index: 999;
+z-index: 999;}
+.p{
+    font-weight:  500;
+    font-size: 5px;
 }
-.drobtn{
-    color: #c6cacc;
-    font-size: 16px;
+
+
+
+.dropbtn{
+    color: #5dd418;
+    font-size: 30px;
     border:none;
     cursor:pointer;
     background:transparent;
@@ -83,7 +94,7 @@ z-index: 999;
     position: absolute;
     background-color:#fff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px #5dd418;
     z-index:1;
 }
 .dropdown-content a{
