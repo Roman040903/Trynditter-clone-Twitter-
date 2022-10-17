@@ -3,9 +3,10 @@
      text-align:right;
      position: absolute;
      right: 0;
-   
+   margin-top: 0px;
      border-bottom:1px solid #e0e5e9;
-     padding: 15px 15px 10px;
+     padding:  15px ;
+     display: inline-block;
 }
 .btnn{
     margin-top: 10px;
@@ -32,7 +33,9 @@
     color:var(--twitter-color);
 }
 .waper{
-    width: 250px;	height: 200px; /* Размеры */
+    position: relative;
+    top: -50px;
+    width: 250px;	height: 360px; /* Размеры */
     background: #fff; /* Цвет фона */
     outline: 2px solid var(--twitter-color); /* Чёрная рамка */
     border: 3px solid #fff; /* Белая рамка */
@@ -55,4 +58,8 @@
     width: 250px;
     border: none;
    
+}
+.exiit{
+    position: relative;
+    top: -180px;
 }
