@@ -1,6 +1,4 @@
 
-
-
 <div class="sidebar">
 <img src="images\Trynditter.jpg" alt=""
      width="220"

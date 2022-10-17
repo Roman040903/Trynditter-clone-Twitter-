@@ -6,7 +6,9 @@ if(isset($_POST['login']) && isset($_POST['password'])){
     //$query="INSERT INTO users(login,password)VALUES('$login','$password')";
     $query="SELECT * FROM users WHERE login='$login' and password='$password'";
 	$result=mysqli_query($con,$query);
-	if ($result->num_rows > 0) $_SESSION['user_login']=$login;
+	 while($r = mysqli_fetch_assoc($result)) $_SESSION['user_id']=$r['id']; 
+	if ($result->num_rows > 0) 
+	 { $_SESSION['user_login']=$login;}
 	header("location:index.php");
 }
 
